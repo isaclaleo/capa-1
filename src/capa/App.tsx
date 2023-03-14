@@ -1,12 +1,16 @@
 import React from 'react';
-import './App.css';
+import Card from './components/card/card';
+import "./App.css"
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <div className="app2">
       <header className="App-header">
           Hola mundo
       </header>
+      <Card className="card"/>
+      </div>
     </div>
   );
 }

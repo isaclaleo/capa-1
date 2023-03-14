@@ -20,6 +20,7 @@ function texField({ label, ...props} : InputProps) {
           size="small"
           multiline
           maxRows={4}
+          {...props}
         />
       </div>
     </Box>
