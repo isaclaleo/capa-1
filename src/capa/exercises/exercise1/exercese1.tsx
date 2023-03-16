@@ -7,7 +7,7 @@ import TextField from '../../components/text-field/textfield';
 import "./exercise.css"
 
 
-function App() {
+function Palindromo() {
   const [answer, setAnswer] = useState<string>("");
   const [isPalindromo, setPalindromo] = useState<string>("")
 
@@ -53,14 +53,14 @@ function App() {
                 value={isPalindromo}
                 />
               </div>
+              <CardActions>
+                <Button
+                  onClick={handleOnclick}
+                  >
+                  Comprobar
+                </Button>
+              </CardActions>
             </CardContent>
-            <CardActions>
-              <Button
-                onClick={handleOnclick}
-                >
-                Comprobar
-              </Button>
-            </CardActions>
           </div>
         </Card>
       </div>
@@ -68,4 +68,4 @@ function App() {
   );
 }
 
-export default App;
+export default Palindromo;

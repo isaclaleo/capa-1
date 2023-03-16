@@ -1,12 +1,11 @@
 import React from "react";
-import Palindromo from "../../../exercises/exercise1/exercese1";
+import StrictlyIncreasingOrder from "../../../exercises/exercise2/exercise2";
 import { Link } from "react-router-dom";
 
-function exercese1PAge() {
-
+function exercese2Page() {
   return (
     <div className="">
-      <Palindromo />
+      <StrictlyIncreasingOrder />
       <div className="">
           <Link to="/">
             Back to home
@@ -16,4 +15,4 @@ function exercese1PAge() {
   )
 }
 
-export default exercese1PAge;
+export default exercese2Page;

@@ -1,7 +1,11 @@
+.flex-cards{
+  display: flex;
+}
 .cards {
   background-color: aqua;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 350px;
   border-radius: 10px;
   border: 1px solid #000;
+  margin: 10px;
 }

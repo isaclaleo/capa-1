@@ -1,9 +1,3 @@
-.home{
-  width: auto;
-  height: 450px;
-  background: salmon;
-}
-
 .cardss {
   display: flex;
   justify-content: center;
