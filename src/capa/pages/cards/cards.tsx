@@ -92,9 +92,9 @@ function mediaCard() {
       <CardActions>
         <div className=''>
           <p>
-            <Link to="exercise1"
+            <Link to="exercise3"
             >
-              Excersis 1
+              Excersis 3
             </Link>
           </p>
         </div>
