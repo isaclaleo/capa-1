@@ -6,36 +6,39 @@ import TexField from '../../components/text-field/textfield';
 
 import './exercise4.css'
 
-function positiveInteger() {
+function PositiveInteger() {
+    const [integerNums, setIntegerNums] = useState<number[]>([])
+    const [answe, setAnswer] = useState<number>()
+
+    const intergerNums = () => {
+        
+    }
+
     return (
         <div className='positive'>
             <Card className='card-posiive'>
                 <CardContent className='content'>
                     <div className='text-field-1'>
                         <TexField
-                        label="numeros"
+                        label="Numeros"
                         className=''
                         variant='outlined'
                         />
                     </div>
                     <div className='text-field-2'>
                         <TexField
-                        label="numeros"
+                        label="Answer"
                         className=''
                         variant='outlined'
                         />
                     </div>
-                    <div className='text-field-3'>
-                        <TexField
-                        label="numeros"
-                        className=''
-                        variant='outlined'
-                        />
-                    </div>
+                    <Button onClick={() => {}}>
+                        Positive Integer
+                    </Button>
                 </CardContent>
             </Card>
         </div>
     )
 }
 
-export  default positiveInteger;
+export  default PositiveInteger;
