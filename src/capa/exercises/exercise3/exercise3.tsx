@@ -77,7 +77,7 @@ function  TargetNums() {
                         />
                     </div>
                     <Button onClick={handleOnclik}>
-                        Find the target
+                        Result
                     </Button>
                 </CardContent>
             </Card>

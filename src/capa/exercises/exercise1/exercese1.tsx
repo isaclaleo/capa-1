@@ -12,11 +12,13 @@ function Palindromo() {
   const [isPalindromo, setPalindromo] = useState<string>("")
 
   const palindromos = (word: string) => {
-    const answer = word.split("").reverse().join("")
+    const phrase  = word.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+    return phrase === phrase.split("").reverse().join("")
     
-    return answer ===  word ? 
-    "Espalindromo" :
-    "No es palindromo"
+    // return answer ===  word ? 
+    // "Espalindromo" :
+    // "No es palindromo"
   }
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -24,8 +26,8 @@ function Palindromo() {
   };
 
   const handleOnclick = () => {
-    const isPalindromo = palindromos(answer)
-    setPalindromo(isPalindromo)
+    const result = palindromos(answer) ? "Es Palindromo" : "No es palindromo"
+    setPalindromo(result)
   }
 
 
@@ -39,7 +41,7 @@ function Palindromo() {
             <CardContent className="content">
               <div className='text'>
                 <TextField
-                  label="Ingresa palindromo" 
+                  label="Write a Palindrome" 
                   className='input'
                   variant="outlined" 
                   onChange={handleChange}
@@ -49,7 +51,7 @@ function Palindromo() {
                 <div className='text'>
                 <TextField
                 className='input'
-                label="Respuesta"
+                label="Answer"
                 value={isPalindromo}
                 />
               </div>
@@ -57,7 +59,7 @@ function Palindromo() {
                 <Button
                   onClick={handleOnclick}
                   >
-                  Comprobar
+                  Result
                 </Button>
               </CardActions>
             </CardContent>

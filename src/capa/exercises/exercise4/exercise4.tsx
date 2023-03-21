@@ -57,7 +57,7 @@ function PositiveInteger() {
                         />
                     </div>
                     <Button onClick={handleOnclik}>
-                        Positive Integer
+                        Result
                     </Button>
                 </CardContent>
             </Card>
