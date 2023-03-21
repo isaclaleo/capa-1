@@ -2,7 +2,8 @@ import React from "react";
 import PositiveInteger from "../../../exercises/exercise4/exercise4";
 import { Link } from "react-router-dom";
 
-function exercese3Page() {
+
+function exercese4Page() {
   return (
     <div className="">
       <PositiveInteger />
@@ -15,4 +16,4 @@ function exercese3Page() {
   )
 }
 
-export default exercese3Page;
+export default exercese4Page;
