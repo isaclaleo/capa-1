@@ -36,16 +36,13 @@ function PositiveInteger() {
             setAnswer(result);
         }
     }
-
-
-
     return (
         <div className='positive'>
             <Card className='card-posiive'>
                 <CardContent className='content'>
                     <div className='text-field-1'>
                         <TexField
-                        label="numeros"
+                        label="Numeros"
                         className=''
                         variant='outlined'
                         onChange={handleNumss}
@@ -60,7 +57,7 @@ function PositiveInteger() {
                         />
                     </div>
                     <Button onClick={handleOnclik}>
-                        find the answer
+                        Positive Integer
                     </Button>
                 </CardContent>
             </Card>
