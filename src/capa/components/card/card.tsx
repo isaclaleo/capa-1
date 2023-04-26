@@ -12,10 +12,14 @@ export type cardProps = {
 function card({className, ...props }: cardProps) {;
 
   return (
-    <Card
+    <div>
+    <Card 
+    className='cas'
+    style={{ backgroundColor: 'ButtonText' }}
      {...props}
      >
     </Card>
+    </div>
   )
 }
 

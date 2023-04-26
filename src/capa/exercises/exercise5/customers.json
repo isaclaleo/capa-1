@@ -1,0 +1,209 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan Perez",
+      "compras": [
+        {
+          "producto": "iPhone 12",
+          "categoria": "Electrónica",
+          "precio": 900
+        },
+        {
+          "producto": "AirPods Pro",
+          "categoria": "Electrónica",
+          "precio": 250
+        },
+        {
+          "producto": "Apple Watch Series 6",
+          "categoria": "Electrónica",
+          "precio": 400
+        }
+      ]
+    },
+    {
+      "nombre": "Maria Gomez",
+      "compras": [
+        {
+          "producto": "iPhone 12",
+          "categoria": "Electrónica",
+          "precio": 900
+        },
+        {
+          "producto": "AirPods Pro",
+          "categoria": "Electrónica",
+          "precio": 250
+        },
+        {
+          "producto": "Apple Watch Series 6",
+          "categoria": "Electrónica",
+          "precio": 400
+        }
+      ]
+    },
+    {
+      "nombre": "Carlos Rodriguez",
+      "compras": [
+        {
+          "producto": "Samsung Galaxy S21",
+          "categoria": "Electrónica",
+          "precio": 800
+        },
+        {
+          "producto": "Samsung Galaxy Buds Pro",
+          "categoria": "Electrónica",
+          "precio": 200
+        }
+      ]
+    },
+    {
+      "nombre": "Sofia Lopez",
+      "compras": [
+        {
+          "producto": "Samsung Galaxy S21",
+          "categoria": "Electrónica",
+          "precio": 800
+        },
+        {
+          "producto": "Samsung Galaxy Buds Pro",
+          "categoria": "Electrónica",
+          "precio": 200
+        }
+      ]
+    },
+    {
+      "nombre": "Diego Hernandez",
+      "compras": [
+        {
+          "producto": "PlayStation 5",
+          "categoria": "Videojuegos",
+          "precio": 500
+        },
+        {
+          "producto": "DualSense Controller",
+          "categoria": "Videojuegos",
+          "precio": 70
+        },
+        {
+          "producto": "Spider-Man: Miles Morales",
+          "categoria": "Videojuegos",
+          "precio": 50
+        }
+      ]
+    },
+    {
+      "nombre": "Juan Pérez",
+      "compras": [
+        {
+          "producto": "Camisa",
+          "categoria": "Ropa",
+          "precio": 25.99
+        },
+        {
+          "producto": "Pantalón",
+          "categoria": "Ropa",
+          "precio": 35.99
+        },
+        {
+          "producto": "Zapatos",
+          "categoria": "Calzado",
+          "precio": 59.99
+        }
+      ]
+    },
+    {
+      "nombre": "María Rodríguez",
+      "compras": [
+        {
+          "producto": "Camiseta",
+          "categoria": "Ropa",
+          "precio": 15.99
+        },
+        {
+          "producto": "Pantalón",
+          "categoria": "Ropa",
+          "precio": 29.99
+        }
+      ]
+    },
+    {
+      "nombre": "Carlos Gutiérrez",
+      "compras": [
+        {
+          "producto": "Zapatos",
+          "categoria": "Calzado",
+          "precio": 79.99
+        }
+      ]
+    },
+    {
+      "nombre": "Ana Martínez",
+      "compras": [
+        {
+          "producto": "Camisa",
+          "categoria": "Ropa",
+          "precio": 21.99
+        },
+        {
+          "producto": "Pantalón",
+          "categoria": "Ropa",
+          "precio": 39.99
+        }
+      ]
+    },
+    {
+      "nombre": "Luisa Fernández",
+      "compras": [
+        {
+          "producto": "Zapatos",
+          "categoria": "Calzado",
+          "precio": 69.99
+        }
+      ]
+    },
+    {
+      "nombre": "Pedro García",
+      "compras": [
+        {
+          "producto": "Camisa",
+          "categoria": "Ropa",
+          "precio": 23.99
+        }
+      ]
+    },
+    {
+      "nombre": "Lucía Pérez",
+      "compras": [
+        {
+          "producto": "Pantalón",
+          "categoria": "Ropa",
+          "precio": 27.99
+        },
+        {
+          "producto": "Zapatos",
+          "categoria": "Calzado",
+          "precio": 59.99
+        }
+      ]
+    },
+    {
+      "nombre": "Javier Fernández",
+      "compras": [
+        {
+          "producto": "Camisa",
+          "categoria": "Ropa",
+          "precio": 19.99
+        },
+        {
+          "producto": "Pantalón",
+          "categoria": "Ropa",
+          "precio": 31.99
+        },
+        {
+          "producto": "Zapatos",
+          "categoria": "Calzado",
+          "precio": 69.99
+        }
+      ]
+    }
+  ]
+}
